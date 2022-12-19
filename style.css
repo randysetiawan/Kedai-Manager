@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+a{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    font-size: 18px;
+}
+
+body{
+    background-color: lightblue
+}
+
+header{
+    height: 140px;
+    width: 100%;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.wrap-content{
+    display: flex;
+    background-color: lightslategray;
+    font-weight: bold;
+    height: 100%;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content{
+    padding: 50px;
+}
+
+.content-top{
+    display: flex;
+}
+
+.content-top-left{
+    margin-right: 100px;
+}
+
+.content-bottom-top{
+    text-align: center;
+}
+
+.content-bottom-bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.content-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-card-image{
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 140px;
+    width: 100%;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.footer-right{
+    display: flex;
+    margin-right: 30px;
+}
+
+.signup-form{
+    height: 100%;
+    text-align: center;
+}
+
+form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
